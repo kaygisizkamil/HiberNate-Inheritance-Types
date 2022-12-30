@@ -21,7 +21,7 @@ public class InheritanceSingleTableApplication {
 
 	public static void main(String[] args) throws IOException {
 
-		SpringApplication.run(InheritanceSingleTableApplication.class, args);
+		//SpringApplication.run(InheritanceSingleTableApplication.class, args);
 		EntityManagerFactory entityManagerFactory= Persistence.createEntityManagerFactory("tryingSingleTable");
 		EntityManager entityManager=entityManagerFactory.createEntityManager();
 		ResourceConfig resourceConfig=new ResourceConfig();
